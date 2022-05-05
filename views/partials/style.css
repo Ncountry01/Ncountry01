@@ -1,0 +1,33 @@
+/**Assignment part */
+
+.displaycontainer{
+    width:100%;
+    height: 100%;
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: 1fr 9fr 2fr;
+}
+.mainbox{
+    padding-left: 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 4fr);
+    width:100%;
+    height: 100%;
+    border: 2px solid blue;
+}
+.sidebox{
+    width:100%;
+    height: 100%;
+    background-color: yellow;
+    border: 2px solid green;
+}
+.leftsidebar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 150%;
+    width:50px;
+    height: 20rem;
+    border: 2px solid red;
+    background-color: red;
+}
